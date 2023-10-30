@@ -204,17 +204,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // teste do menu lateral
 
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+// var dropdown = document.getElementsByClassName("dropdown-btn");
+// var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
+// for (i = 0; i < dropdown.length; i++) {
+//   dropdown[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var dropdownContent = this.nextElementSibling;
+//     if (dropdownContent.style.display === "block") {
+//       dropdownContent.style.display = "none";
+//     } else {
+//       dropdownContent.style.display = "block";
+//     }
+//   });
+// }
+
+// SUBTÓPICO COM JQUERY
+
+$(document).ready(function () {
+  
+    // Adicione um evento de clique a todos os botões de dropdown
+    $(".dropdown-btn").click(function (event) {
+        // Encontre o conteúdo de dropdown associado a este botão
+        var dropdown = $(this).next('.dropdown-container');
+
+        dropdown.stop(true,true).slideToggle();
+
+         event.stopPropagation();
+
+        //    fecha o dropdown no evento "mouseleave" na ul "dropDown"
+        $('.menulateral').mouseleave(function () {
+            dropdown.slideUp();
+        });
+    });
+});

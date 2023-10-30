@@ -19,18 +19,46 @@
         <section>
             <div class="main-content container-fluid">
 
-
-
+                <!-- imagem  -->
                 <div class="row">
                     <!-- Begin row -->
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!-- Título -->
-                        <h2 class="Titulo fw-bolder">Apresentação</h2>
+                        <h2 class="Titulo fw-bolde scrool">Apresentação</h2>
                         <!-- Título -->
 
-                        
+                        <!-- imagem -->
+                        <div class="text-center img-01 scrool">
+                            <div class="zoom2">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem1">
+                                    <img src="imgs/index/banner.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <p class="scrool mt-4"><strong>Bem-vindo ao Curso “Calc para Iniciantes”!</strong></p>
+
+                        <p class="scrool">
+                            Conhecido como um potente editor de Planilhas Eletrônicas, o LibreOffice Calc é um software livre e gratuito, que surgiu como uma alternativa ao Microsoft Excel, software proprietário e pago.
+                        </p>
+
+                        <p class="scrool">
+                            Nosso curso busca apresentar uma linguagem simples que lhe ajudará a conhecer um pouco mais sobre os conceitos básicos da utilização desse programa, através da utilização de exemplos claros e objetivos.
+                        </p>
+
+                        <p class="scrool">
+                            Esperamos que você se dedique ao curso e tenha um bom aproveitamento!
+                        </p>
+
+                        <h2 class="Titulo fw-bolder mt-5">Objetivo</h2>
+
+                        <p class="scrool">
+                        <i class="fa fa-dot-circle text-success fs-6"></i>    
+                        Proporcionar ao aluno uma visão básica de alguns recursos do LibreOffice Calc através de exemplos práticos que possam ser utilizados em seu cotidiano pessoal e profissional.
+                        </p>
 
                     </div>
 

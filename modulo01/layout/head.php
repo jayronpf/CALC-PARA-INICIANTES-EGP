@@ -18,8 +18,6 @@
         crossorigin="anonymous"></script>
     <!-- Cdn do bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- link do wow.js -->
-    <link rel="stylesheet" href="css/animate.css">
     <!-- nosso css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/cssdapagina/style.css">
@@ -31,6 +29,10 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
+    <!-- cdn jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
 
     <title>EGPCE | Gestão do Tempo</title>
 </head>
