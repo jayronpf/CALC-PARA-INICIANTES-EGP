@@ -33,7 +33,7 @@
                             <strong>Objetivo:</strong> Apresentar o editor de planilhas Calc e seus elementos básicos.
                         </p>
 
-                        <h4 class="corsub fw-bolder">Suíte LibreOffice</h4>
+                        <h4 class="corsub fw-bolder scrool">Suíte LibreOffice</h4>
 
                         <p class="scrool">
                             Potente suíte de escritório, sua interface limpa. Suas poderosas ferramentas libertam a
@@ -57,7 +57,7 @@
 
                         <!-- 1º Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3" id="item1">O que é o Calc?</h3>
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool" id="item1">O que é o Calc?</h3>
 
                         <p class="scrool">
                             O Calc é um dos componentes da Suíte LibreOffice e que tem como função trabalhar com
@@ -112,7 +112,7 @@
 
                         <!-- 2º Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3" id="item2">Instalação da Suíte LibreOffice</h3>
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool" id="item2">Instalação da Suíte LibreOffice</h3>
 
                         <p class="scrool">
                             Para instalar a Suíte LibreOffice, assista aos vídeos:
@@ -138,46 +138,117 @@
 
                         <!-- 3º Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3" id="item3">Elementos Básicos de Uma Planilha no Calc</h3>
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool" id="item3">Elementos Básicos de Uma Planilha no Calc</h3>
 
-                        <!-- modal -->
+                        <h4 class="corsub fw-bolder scrool">Planilha</h4>
 
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn1" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Planilha
-                        </button>
+                        <p class="scrool">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            É o arquivo completo, com todas as suas abas ou folhas de cálculo. Na primeira aba, podemos
+                            ter, por exemplo, o cálculo de despesas do seu escritório. Na segunda aba as, receitas e na
+                            terceira aba, um gráfico demonstrativo.
+                        </p>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5 btntitle" id="exampleModalLabel">Planilha</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        dgdfdf
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Fechar</button>
-                                    </div>
+                        <p class="scrool">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            Cada planilha contém colunas, que são dispostas lado a lado, e linhas que correm de cima a
+                            baixo, lembrando um plano cartesiano, no qual as coordenadas são representadas pelos pares
+                            ordenados "x ; y". No caso das planilhas "coluna ; linha". As colunas são rotuladas com
+                            letras e as linhas são numeradas. Cada planilha possui 1.048.576 linhas e as colunas vão das
+                            letras A à A.
+                        </p>
+
+                        <!-- SEGUNDA PARTE -->
+                        <h4 class="corsub fw-bolder mt-5 scrool">Célula</h4>
+
+                        <p class="scrool">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            Elemento básico, primordial em uma planilha. É identificado como sendo a interseção entre
+                            dois vetores (retângulo que se forma do cruzamento de linha x coluna). Recebe a informação a
+                            ser processada, podendo ser textual, numérica, fórmula ou outros caracteres.
+                        </p>
+
+                        <p class="scrool">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            No exemplo, a palavra <strong>“CEDIS”</strong> pertence a célula que se forma com o
+                            cruzamento da coluna <strong>B</strong> e a linha <strong>2</strong>. Logo, o Calc entende
+                            esta coordenada como <strong>“B2”</strong>. Ela representa então o que chamamos de
+                            <strong>endereço da célula</strong>. Em caso de números, as fórmulas serão baseadas nos
+                            endereços da célula, facilitando bastante nossos futuros trabalhos com funções.
+                        </p>
+
+                        <!-- imagem - start -->
+                        <div class="scrool">
+                        <div class="text-center img-01">
+                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
+                                Exemplo de uma célula</p>
+                            <div class="zoom">
+                                <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem1">
+                                    <img src="imgs/index/figura01.png" alt="Imagem que remete a organização" id="img-1">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Tecmundo</p>
+                        </div>
+
+                        <!-- Imagem - MODAL-->
+                        <div class="modal fade text-center" id="Imagem1" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/index/figura01.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Fonte:</strong>Tecmundo</p>
                                 </div>
                             </div>
                         </div>
+                        <!-- Imagem - End-->
+                    </div>
 
+                    <p class="scrool mt-3">
+                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                        Observe ainda que temos (no canto superior esquerdo) o que chamamos de caixa de endereço. Através dela podemos visualizar o endereço da célula selecionada.
+                    </p>
 
+                    <!-- TERCEIRA PARTE -->
+                    <h4 class="corsub fw-bolder mt-5 scrool">Valores</h4>
+                    
+                    <p class="scrool mt-3">
+                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                        Um valor pode representar um dado numérico ou textual inserido pelo usuário ou pode ser resultado de uma fórmula ou função (nativa ou do usuário).
+                    </p>
 
+                    <!-- QUARTA PARTE -->
+                    <h4 class="corsub fw-bolder mt-5 scrool">Fórmulas</h4>
 
+                    <p class="scrool mt-3">
+                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                        A fórmula é uma expressão matemática, inserida na célula pelo usuário para calcular um resultado. Os critérios podem ser:
+                    </p>
 
+                    <ul class="scrool">
+                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Célula;</li>
+                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Faixa de células;</li>
+                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Resultado aritmético;</li>
+                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Referência a outras planilhas etc.</li>
+                    </ul>
+        
+                    <p class="scrool">
+                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                        A fórmula é a parte inteligente da planilha e sem as fórmulas a planilha. Seria somente um amontoado de textos e números.
+                    </p>
 
+                    <!-- QUINTAS PARTE -->
+                    <h4 class="corsub fw-bolder mt-5 scrool">Funções</h4>
 
+                    <p class="scrool mt-3">
+                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                        São fórmulas pré-definidas (nativas) para pouparem tempo e trabalho na criação de uma equação. O Calc contém muitas funções nativas e o usuário é livre para implementar as suas próprias funções, há de se imaginar como sendo quase ilimitado o poder do usuário em estender a funcionalidade da planilha eletrônica.
+                    </p>
 
-
-
+                    <!-- 4º Subtopico-->
+                    <h3 class="Titulo fw-bolder mt-5 mb-3 scrool " id="item4">Interface do Calc</h3>
                     </div>
 
                 </div>

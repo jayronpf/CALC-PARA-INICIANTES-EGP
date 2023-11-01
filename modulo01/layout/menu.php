@@ -35,6 +35,9 @@
 
             <a href="#item3">
                 <i class="fa-regular fa-pen-to-square circulo"></i>01.4 Elementos básicos de uma planilha no Calc</a>
+
+            <a href="#item4">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 01.5 Interface do Calc</a>
         </div>
 
         <li class="menu">
