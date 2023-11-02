@@ -29,6 +29,8 @@
                         <h2 class="Titulo fw-bolde scrool">Conhecendo a Interface do Calc</h2>
                         <!-- Título -->
 
+                        <!-- INICIO DO CONTEUDO -->
+
                         <p class="scrool mt-3 mb-4">
                             <strong>Objetivo:</strong> Apresentar o editor de planilhas Calc e seus elementos básicos.
                         </p>
@@ -367,7 +369,7 @@
             <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"><i
                     class="fa-solid fa-chevron-left"></i>   Voltar</a>
 
-            <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 

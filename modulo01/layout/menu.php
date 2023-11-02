@@ -12,7 +12,7 @@
             </a>
         </li>
 
-        <!-- topico com Subtópico -->
+        <!-- 1º topico com subtópico -->
         <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico01.php">
@@ -40,12 +40,33 @@
                 <i class="fa-regular fa-pen-to-square circulo"></i> 01.5 Interface do Calc</a>
         </div>
 
-        <li class="menu">
+        <!-- 2º topico com Subtópico -->
+        <button class="dropdown-btn">
+            <li class="menu">
+                <a data-valor="topico02.php">
+                    <span class="icon space"><i class="bi bi-1-circle"></i></span>
+                    <span class="txt">Células, Colunas, Linhas e Folhas de Cálculo<i
+                            class="bi bi-caret-down-fill barra-sub"></i></span>
+                </a>
+            </li>
+        </button>
+        <!-- subtopicos aqui  -->
+        <div class="dropdown-container" id="spy">
             <a href="topico02.php">
-                <span class="icon space"><i class="bi bi-2-circle"></i></span>
-                <span class="txt">História de UX</span>
-            </a>
-        </li>
+                <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
+
+            <a href="#item1">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.2 Seleção de células, colunas, linhas e folhas</a>
+
+            <a href="#item2">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.3 Inserção de colunas ou linhas</a>
+
+            <a href="#item3">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.4 Exclusão de colunas ou linhas</a>
+
+            <a href="#item4">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.5 Trabalho com folhas de cálculo</a>
+        </div>        
 
         <li class="menu">
             <a href="topico03.php">

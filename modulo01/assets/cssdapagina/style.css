@@ -47,3 +47,16 @@
 [data-theme="dark"] .ul{
     color: #fff;
 }
+
+/* TOPICO 02 */
+
+/* alerta */
+.alert{
+    background-color: #fffb00f5;
+    padding: 4px;
+}
+
+/* accondion com conteudo */
+.uls-accordion li{
+    padding: 10px;
+}
