@@ -57,7 +57,7 @@
 
                         <!-- 1º Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool" id="item1">O que é o Calc?</h3>
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item1">O que é o Calc?</h3>
 
                         <p class="scrool">
                             O Calc é um dos componentes da Suíte LibreOffice e que tem como função trabalhar com
@@ -70,7 +70,7 @@
                             Outras funcionalidades oferecidas pelo Calc:
                         </p>
 
-                        <ul>
+                        <ul class="scrool ul">
                             <li>
                                 <i class="fa fa-dot-circle text-success fs-6"></i>
                                 Funções que podem ser utilizadas para criar fórmulas, a fim de executar cálculos
@@ -112,7 +112,7 @@
 
                         <!-- 2º Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool" id="item2">Instalação da Suíte LibreOffice</h3>
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item2">Instalação da Suíte LibreOffice</h3>
 
                         <p class="scrool">
                             Para instalar a Suíte LibreOffice, assista aos vídeos:
@@ -138,9 +138,10 @@
 
                         <!-- 3º Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool" id="item3">Elementos Básicos de Uma Planilha no Calc</h3>
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item3">Elementos Básicos de Uma Planilha no
+                            Calc</h3>
 
-                        <h4 class="corsub fw-bolder scrool">Planilha</h4>
+                        <h4 class="corsub fw-bolder scrool mt-5">Planilha</h4>
 
                         <p class="scrool">
                             <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
@@ -179,76 +180,180 @@
 
                         <!-- imagem - start -->
                         <div class="scrool">
-                        <div class="text-center img-01">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
-                                Exemplo de uma célula</p>
-                            <div class="zoom">
-                                <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem1">
-                                    <img src="imgs/index/figura01.png" alt="Imagem que remete a organização" id="img-1">
-                                </a>
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
+                                    Exemplo de uma célula</p>
+                                <div class="zoom">
+                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem1">
+                                        <img src="imgs/index/figura01.png" alt="Imagem que remete a organização"
+                                            id="img-1">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Tecmundo</p>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Tecmundo</p>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem1" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/index/figura01.png"
+                                            alt="Alt da imagem fica aqui">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Fonte:</strong>Tecmundo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
                         </div>
 
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem1" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs/index/figura01.png" alt="Alt da imagem fica aqui">
+                        <p class="scrool mt-3">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            Observe ainda que temos (no canto superior esquerdo) o que chamamos de caixa de endereço.
+                            Através dela podemos visualizar o endereço da célula selecionada.
+                        </p>
+
+                        <!-- TERCEIRA PARTE -->
+                        <h4 class="corsub fw-bolder mt-5 scrool">Valores</h4>
+
+                        <p class="scrool mt-3">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            Um valor pode representar um dado numérico ou textual inserido pelo usuário ou pode ser
+                            resultado de uma fórmula ou função (nativa ou do usuário).
+                        </p>
+
+                        <!-- QUARTA PARTE -->
+                        <h4 class="corsub fw-bolder mt-5 scrool">Fórmulas</h4>
+
+                        <p class="scrool mt-3">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            A fórmula é uma expressão matemática, inserida na célula pelo usuário para calcular um
+                            resultado. Os critérios podem ser:
+                        </p>
+
+                        <ul class="scrool ul">
+                            <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Célula;</li>
+                            <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Faixa de células;</li>
+                            <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Resultado aritmético;</li>
+                            <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Referência a outras planilhas
+                                etc.</li>
+                        </ul>
+
+                        <p class="scrool">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            A fórmula é a parte inteligente da planilha e sem as fórmulas a planilha. Seria somente um
+                            amontoado de textos e números.
+                        </p>
+
+                        <!-- QUINTAS PARTE -->
+                        <h4 class="corsub fw-bolder mt-5 scrool">Funções</h4>
+
+                        <p class="scrool mt-3">
+                            <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
+                            São fórmulas pré-definidas (nativas) para pouparem tempo e trabalho na criação de uma
+                            equação. O Calc contém muitas funções nativas e o usuário é livre para implementar as suas
+                            próprias funções, há de se imaginar como sendo quase ilimitado o poder do usuário em
+                            estender a funcionalidade da planilha eletrônica.
+                        </p>
+
+                        <!-- 4º Subtopico-->
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item4">Interface do Calc</h3>
+
+                        <!-- imagem - start -->
+                        <div class="scrool">
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 2:</strong>
+                                    Interface do Calc</p>
+                                <div class="zoom">
+                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem2">
+                                        <img src="imgs/topico01/figura02.png" alt="Imagem que remete a organização"
+                                            id="img-1">
+                                    </a>
                                 </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong>Tecmundo</p>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem2" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/topico01/figura02.png"
+                                            alt="Alt da imagem fica aqui">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Imagem - End-->
-                    </div>
+                            <!-- Imagem - End-->
 
-                    <p class="scrool mt-3">
-                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
-                        Observe ainda que temos (no canto superior esquerdo) o que chamamos de caixa de endereço. Através dela podemos visualizar o endereço da célula selecionada.
-                    </p>
+                            <!-- 2º parte do 4º subtopico -->
+                            <h4 class="corsub fw-bolder mt-5 scrool">Barra de Título</h4>
 
-                    <!-- TERCEIRA PARTE -->
-                    <h4 class="corsub fw-bolder mt-5 scrool">Valores</h4>
-                    
-                    <p class="scrool mt-3">
-                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
-                        Um valor pode representar um dado numérico ou textual inserido pelo usuário ou pode ser resultado de uma fórmula ou função (nativa ou do usuário).
-                    </p>
+                            <p class="scrool">
+                                Localizada no alto da tela, mostra o nome do documento atual. Quando a planilha for recém-criada, seu nome será “Sem título X”, onde X é um número. Ao ser salva pela primeira vez, você será solicitado a dar um nome a essa planilha. Encontram-se ainda na barra: a logo do Calc (lado superior esquerdo) e os botões de minimizar, restaurar/maximizar e fechar (lado superior direito).
+                            </p>
 
-                    <!-- QUARTA PARTE -->
-                    <h4 class="corsub fw-bolder mt-5 scrool">Fórmulas</h4>
+                            <!-- 3º parte do 4º subtopico -->
+                            <h4 class="corsub fw-bolder mt-5 scrool">Barra de Menu</h4>
 
-                    <p class="scrool mt-3">
-                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
-                        A fórmula é uma expressão matemática, inserida na célula pelo usuário para calcular um resultado. Os critérios podem ser:
-                    </p>
+                            <p class="scrool">
+                                Localizada abaixo da barra de título, a Barra de menu é composta por vários menus e submenus, permitindo acesso rápido a uma série de funcionalidades. Você pode personalizar a Barra de menu conforme as suas necessidades. Para isso, vá em <strong>Ferramentas → Personalizar</strong> e vá na guia <strong>Menu</strong>.
+                            </p>
 
-                    <ul class="scrool">
-                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Célula;</li>
-                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Faixa de células;</li>
-                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Resultado aritmético;</li>
-                        <li><i class="fa-solid fa-cube" style="color: #44833d;"></i> Referência a outras planilhas etc.</li>
-                    </ul>
-        
-                    <p class="scrool">
-                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
-                        A fórmula é a parte inteligente da planilha e sem as fórmulas a planilha. Seria somente um amontoado de textos e números.
-                    </p>
+                            <!-- imagem - start -->
+                        <div class="scrool">
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 3:</strong>
+                                    Personalizar</p>
+                                <div class="zoom">
+                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem3">
+                                        <img src="imgs/topico01/figura03.png" alt="Imagem que remete a organização"
+                                            id="img-1">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                            </div>
 
-                    <!-- QUINTAS PARTE -->
-                    <h4 class="corsub fw-bolder mt-5 scrool">Funções</h4>
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem3" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/topico01/figura03.png"
+                                            alt="Alt da imagem fica aqui">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Imagem - End-->
 
-                    <p class="scrool mt-3">
-                        <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>
-                        São fórmulas pré-definidas (nativas) para pouparem tempo e trabalho na criação de uma equação. O Calc contém muitas funções nativas e o usuário é livre para implementar as suas próprias funções, há de se imaginar como sendo quase ilimitado o poder do usuário em estender a funcionalidade da planilha eletrônica.
-                    </p>
+                            <!-- 4º parte do 4º subtopico -->
+                            <h4 class="corsub fw-bolder mt-5 scrool">Barra de Ferramentas</h4>
+                            <p class="scrool">
+                                A barra de ferramentas do LibreOffice inclui elementos comuns aos aplicativos, como os botões: salvar, imprimir, exportar como PDF, desfazer, tabelas etc.
+                            </p>
 
-                    <!-- 4º Subtopico-->
-                    <h3 class="Titulo fw-bolder mt-5 mb-3 scrool " id="item4">Interface do Calc</h3>
+                            <p class="scrool">
+                                Na Barra de ferramentas padrão estão várias opções, tais como:
+                            </p>
+
+                            <ul class="scrool ul">
+                                <li><i class="fa fa-dot-circle text-success fs-6"></i> Gráficos;</li>
+                                <li><i class="fa fa-dot-circle text-success fs-6"></i> Ajuda;</li>
+                                <li><i class="fa fa-dot-circle text-success fs-6"></i> Alinhamento;</li>
+                                <li><i class="fa fa-dot-circle text-success fs-6"></i> Numeração;</li>
+                                <li><i class="fa fa-dot-circle text-success fs-6"></i> Recuo;</li>
+                                <li><i class="fa fa-dot-circle text-success fs-6"></i> Cor da fonte etc.</li>
+                            </ul>
+                            
                     </div>
 
                 </div>
@@ -260,9 +365,9 @@
         <!-- Botões de navegação -->
         <div class="text-center">
             <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"><i
-                    class="fa-solid fa-chevron-left"></i>Voltar</a>
+                    class="fa-solid fa-chevron-left"></i>   Voltar</a>
 
-            <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo<i
+            <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>
 
