@@ -523,6 +523,33 @@ hr {
 
 /* CORES DOS DIFERENTES DOS ACCORDIONS */
 
+/* CAIXA DUVIDA */
+.accordion #content .caixaprincipal#tituloDuvida {
+    background-color: #2A8C82;
+    /*cor da caixa principal curiosidade*/
+    color: #fffffff6;
+    /*cor da palavra na caixa principal*/
+}
+
+#Duvida p {
+    color: black;
+    /*cor da caixa secundaria curiosidade */
+}
+
+#Duvida {
+    background-color: #4bd3c5c4;
+    /*cor da caixa secundaria curiosidade */
+}
+
+[data-theme="dark"] .accordion #content .caixaprincipal#tituloDuvida {
+    background-color: #33beaa;
+}
+
+[data-theme="dark"] #Duvida {
+    background-color: #ade7df;
+}
+
+/*  FIM CAIXA DÚVIDA */
 
 /* CAIXA IMPORTANTE */
 .accordion #content .caixaprincipal#tituloimportante {

@@ -295,14 +295,14 @@
                         <div class="div-cx-conteudo d-flex justify-content-evenly">
                             <div class="alert cx-conteudo" role="alert">
                                 <div class="cabecalho">
-                                <i class="fa-solid fa-cube" style="color: #44833d;"></i>
+                                <i class="fa-solid fa-cube" style="color: black;"></i>
                                 Para selecionar múltiplas colunas ou linhas contíguas
                                 </div>
 
                                 <div class="body">
                                     <ul class="mt-3 uls-cx-conteudo">
-                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na primeira coluna ou linha do grupo;</li>
-                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Pressione e segure a tecla Shift;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: black;"></i> Clique na primeira coluna ou linha do grupo;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: black;"></i> Pressione e segure a tecla Shift;</li>
                                         <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na última coluna ou linha do grupo.</li>
                                     </ul>
                                 </div>
