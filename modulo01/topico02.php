@@ -155,13 +155,14 @@
                         </p>
 
                         <!-- alerta -->
-                        <div class="alert d-flex justify-content-center" role="alert">
+                        <div class="alert d-flex justify-content-center mt-5" role="alert">
                             <i class="bi bi-lightbulb-fill"></i>
                             <div>
                                 Clique nos títulos abaixo para mais informações
                             </div>
                         </div>
                         <!-- fim do alerta -->
+
 
                         <!-- acordeon com conteudo da aula -->
 
@@ -227,7 +228,7 @@
                                 </h2>
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body d-flex justify-content-start">
                                         <ul class="uls-accordion">
                                             <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Clique
                                                 na célula que será um dos cantos do grupo a ser selecionado;</li>
@@ -253,7 +254,7 @@
                                 </h2>
                                 <div id="flush-collapseFor" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body d-flex justify-content-start">
                                         <ul class="uls-accordion">
                                             <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Clique
                                                 na célula que será um dos cantos do grupo a ser selecionado;</li>
@@ -271,6 +272,46 @@
                         </div>
 
                         <!-- fim acordeon com conteudo da aula -->
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Colunas, Linhas e Folha</h4>
+
+                        <p class="scrool">
+                            Colunas e linhas inteiras podem ser selecionadas de maneira muito rápida no LibreOffice.
+                        </p>
+
+                        <ul class="uls-accordion">
+                            <li><i class="fa fa-dot-circle text-success fs-6"></i> Para selecionar uma única coluna,
+                                clique na letra do identificador da coluna, por exemplo. Para selecionar a coluna
+                                <strong>D</strong>, clique sobre a letra <strong>D</strong> no cabeçalho de colunas;
+                            </li>
+
+                            <li><i class="fa fa-dot-circle text-success fs-6"></i> Para selecionar uma única linha,
+                                clique no identificador do número da linha, por exemplo. Para selecionar a linha 1,
+                                clique sobre o número 1 no cabeçalho de linhas.</li>
+                        </ul>
+
+                        <!-- Caixas com conteúdo -->
+
+                        <div class="div-cx-conteudo d-flex justify-content-evenly">
+                            <div class="alert cx-conteudo" role="alert">
+                                <div class="cabecalho">
+                                <i class="fa-solid fa-cube" style="color: #44833d;"></i>
+                                Para selecionar múltiplas colunas ou linhas contíguas
+                                </div>
+
+                                <div class="body">
+                                    <ul class="mt-3 uls-cx-conteudo">
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na primeira coluna ou linha do grupo;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Pressione e segure a tecla Shift;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na última coluna ou linha do grupo.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="alert cx-conteudo" role="alert">
+                                a
+                            </div>
+                        </div>
 
 
                     </div>

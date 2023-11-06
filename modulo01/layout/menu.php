@@ -44,7 +44,7 @@
         <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico02.php">
-                    <span class="icon space"><i class="bi bi-1-circle"></i></span>
+                    <span class="icon space"><i class="bi bi-2-circle"></i></span>
                     <span class="txt">Células, Colunas, Linhas e Folhas de Cálculo<i
                             class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
