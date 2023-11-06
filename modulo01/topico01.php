@@ -207,9 +207,9 @@
                                         <p class="text-secondary"><strong>Fonte:</strong>Tecmundo</p>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Imagem - End-->
+                            </div>                            
                         </div>
+                        <!-- Imagem - End-->
 
                         <p class="scrool mt-3">
                             <i class="fa-solid fa-arrow-right" style="color: #44833d;"></i>

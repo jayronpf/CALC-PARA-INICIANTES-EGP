@@ -55,16 +55,16 @@
             <a href="topico02.php">
                 <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
 
-            <a href="#item1">
+            <a href="#item5">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 02.2 Seleção de células, colunas, linhas e folhas</a>
 
-            <a href="#item2">
+            <a href="#item6">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 02.3 Inserção de colunas ou linhas</a>
 
-            <a href="#item3">
+            <a href="#item7">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 02.4 Exclusão de colunas ou linhas</a>
 
-            <a href="#item4">
+            <a href="#item8">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 02.5 Trabalho com folhas de cálculo</a>
         </div>        
 

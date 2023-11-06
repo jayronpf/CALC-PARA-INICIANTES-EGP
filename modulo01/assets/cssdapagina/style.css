@@ -87,10 +87,13 @@
 .cx-conteudo{
     background-color: #56b6f7;
     padding: 1em 2em;
+    color: white;
 }
 
 .cabecalho{
     border-bottom: 1px solid rgba(255, 255, 255, 0.658);
+    
+    margin-bottom: 5px;
 }
 
 .uls-cx-conteudo li{

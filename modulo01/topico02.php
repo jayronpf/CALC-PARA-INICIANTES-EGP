@@ -136,7 +136,7 @@
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <!-- 1º subtopico -->
-                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item1">Seleção de Células, Colunas,
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item5">Seleção de Células, Colunas,
                             Linhas e Folhas</h3>
 
                         <h4 class="corsub fw-bolder scrool mt-5">Células</h4>
@@ -292,26 +292,303 @@
 
                         <!-- Caixas com conteúdo -->
 
-                        <div class="div-cx-conteudo d-flex justify-content-evenly">
+                        <div class="div-cx-conteudo d-flex justify-content-evenly ">
                             <div class="alert cx-conteudo" role="alert">
                                 <div class="cabecalho">
-                                <i class="fa-solid fa-cube" style="color: black;"></i>
-                                Para selecionar múltiplas colunas ou linhas contíguas
+                                    <i class="fa-solid fa-cube" style="color: #477391;"></i>
+                                    Para selecionar múltiplas colunas ou linhas contíguas
                                 </div>
 
-                                <div class="body">
-                                    <ul class="mt-3 uls-cx-conteudo">
-                                        <li><i class="fa-solid fa-arrow-right" style="color: black;"></i> Clique na primeira coluna ou linha do grupo;</li>
-                                        <li><i class="fa-solid fa-arrow-right" style="color: black;"></i> Pressione e segure a tecla Shift;</li>
-                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na última coluna ou linha do grupo.</li>
+                                <div class="body ">
+                                    <ul class="mt-3 uls-cx-conteudo d-flex justify-content-start flex-column">
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na
+                                            primeira coluna ou linha do grupo;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Pressione e
+                                            segure a tecla Shift;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na
+                                            última coluna ou linha do grupo.</li>
                                     </ul>
                                 </div>
                             </div>
 
                             <div class="alert cx-conteudo" role="alert">
-                                a
+                                <div class="cabecalho">
+                                    <i class="fa-solid fa-cube" style="color: #477391;"></i>
+                                    Para selecionar múltiplas colunas ou linhas não contíguas
+                                </div>
+
+                                <div class="body ">
+                                    <ul class="mt-3 uls-cx-conteudo d-flex justify-content-start flex-column">
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique na
+                                            primeira coluna ou linha do grupo;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Pressione e
+                                            segure a tecla Ctrl;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique em
+                                            todas as colunas ou linhas subsequentes,<br> enquanto segura a tecla Ctrl.
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
+
+                        <!-- Fim das caixas com conteúdo -->
+
+                        <p class="scrool">
+                            Para selecionar uma folha inteira, clique na pequena caixa entre o identificador da coluna
+                            “<strong>A</strong>” e o identificador da linha “<strong>1</strong>”.
+                        </p>
+
+                        <p class="scrool">
+                            Você também pode pressionar <strong>Ctrl+A</strong> para selecionar folhas inteiras ou indo
+                            em <strong>Editar → Selecionar tudo</strong>.
+                        </p>
+
+                        <!-- imagem - start -->
+                        <div class="scrool">
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 4:</strong>
+                                    Seleção de Planilha</p>
+                                <div class="zoom">
+                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem4">
+                                        <img src="imgs/topico02/figura04.png" alt="Imagem que remete a organização"
+                                            id="img-1">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem4" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/topico02/figura04.png"
+                                            alt="Alt da imagem fica aqui">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <!-- 2º Subtopico -->
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item6">Inserção de colunas ou linhas</h3>
+
+                        <h4 class="corsub fw-bolder scrool">Intervalo de Célula</h4>
+
+                        <!-- Caixas com conteúdo -->
+
+                        <div class="div-cx-conteudo">
+                            <div class="alert cx-conteudo" role="alert">
+                                <div class="cabecalho">
+                                    Utilizando o menu Inserir
+                                </div>
+
+                                <div class="body ">
+                                    <ul class="mt-3 uls-cx-conteudo d-flex justify-content-start flex-column">
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Selecione a célula, coluna ou linha em que você quer inserir a nova coluna ou linha;</li>
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique em “Planilha → Inserir Colunas” ou “Planilha → Inserir → Linhas”.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="alert cx-conteudo" role="alert">
+                                <div class="cabecalho">
+                                    Utilizando o mouse
+                                </div>
+
+                                <div class="body ">
+                                    <ul class="mt-3 uls-cx-conteudo d-flex justify-content-start flex-column">
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Selecione a célula, coluna ou linha em que você quer inserir a nova coluna ou linha;</li>
+
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Clique com o botão direito do mouse no cabeçalho da coluna ou da linha;</li>
+                                         
+                                        <li><i class="fa-solid fa-arrow-right" style="color: #477391;"></i> Escolha entre: inserir linhas acima, inserir linhas abaixo, inserir colunas à esquerda ou inserir colunas à direita.
+                                        </li>
+                                    </ul>
+
+                                    <div class="divpai-imgs d-flex justify-content-evenly">
+                                    <!-- imagem - start -->
+                                        <div class="scrool">
+                                            <div class="text-center img-01">
+                                                <p class="TituloFigura FonteMenor p-2 text-dark"><strong>Figura 5:</strong>
+                                                    Inserindo coluna
+                                                </p>
+                                                <div class="zoom">
+                                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem5">
+                                                        <img src="imgs/topico02/figura05.png" alt="Imagem que remete a organização"
+                                                            id="img-1">
+                                                    </a>
+                                                </div>
+                                                <p class="FonteFigura FonteMenor text-dark"><strong>Fonte:</strong>EGPCE</p>
+                                            </div>
+
+                                            <!-- Imagem - MODAL-->
+                                            <div class="modal fade text-center" id="Imagem5" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div
+                                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                                    <div class="modal-content w-75">
+                                                        <img class="img-fluid" src="imgs/topico02/figura05.png"
+                                                            alt="Alt da imagem fica aqui">
+                                                    </div>
+                                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <!-- Imagem - End-->
+
+                                    <!-- imagem - start -->
+                                        <div class="scrool">
+                                            <div class="text-center img-01">
+                                                <p class="TituloFigura FonteMenor text-dark p-2"><strong>Figura 6:</strong>
+                                                    Inserindo linha
+                                                </p>
+                                                <div class="zoom">
+                                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem6">
+                                                        <img src="imgs/topico02/figura06.png" alt="Imagem que remete a organização"
+                                                            id="img-1">
+                                                    </a>
+                                                </div>
+                                                <p class="FonteFigura FonteMenor text-dark"><strong>Fonte:</strong>EGPCE</p>
+                                            </div>
+
+                                            <!-- Imagem - MODAL-->
+                                            <div class="modal fade text-center" id="Imagem6" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div
+                                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                                    <div class="modal-content w-75">
+                                                        <img class="img-fluid" src="imgs/topico02/figura06.png"
+                                                            alt="Alt da imagem fica aqui">
+                                                    </div>
+                                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Imagem - End-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fim das caixas com conteúdo -->
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Múltiplas Colunas ou Linhas</h4>
+
+                        <p class="scrool">
+                            Você pode também inserir várias colunas ou linhas de uma só vez.
+                        </p>
+
+                        <ul>
+                            <li class="mb-2"><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Selecione o número de colunas ou de linhas pressionando e segurando o botão esquerdo do mouse na primeira, e arraste o número necessário de identificadores.</li> 
+
+                            <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Proceda da mesma forma, como fosse inserir uma única linha ou coluna, conforme descrito acima.</li> 
+                        </ul>
+
+                        <!-- imagem - start -->
+                        <div class="scrool">
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 7:</strong>
+                                    Inserindo 3 linhas abaixo da linha 1
+                                </p>
+                                <div class="zoom">
+                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem7">
+                                        <img src="imgs/topico02/figura07.png" alt="Imagem que remete a organização"
+                                            id="img-1">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem7" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-75">
+                                        <img class="img-fluid" src="imgs/topico02/figura07.png"
+                                            alt="Alt da imagem fica aqui">
+                                    </div>
+                                    <div class="modal-footer w-75 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
+
+                        <!-- 3º Subtopico -->
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item7">Exclusão de colunas ou linhas</h3>
+
+                        <p class="scrool">
+                            Colunas e linhas podem ser apagadas individualmente ou em grupos.
+                        </p>
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Coluna ou Linha Única</h4>
+
+                        <p class="scrool">
+                            Uma única coluna ou linha pode ser apagada, utilizando-se o mouse:
+                        </p>
+
+                        <ul>
+                            <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Selecione a coluna ou linha a ser apagada;</li>
+
+                            <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Clique com o botão direito do mouse no identificador da coluna ou linha;</li>
+                            
+                            <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Selecione Excluir Colunas ou Excluir Linhas no menu de contexto.</li>
+                        </ul>
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Múltiplas Colunas ou Linhas</h4>
+
+                        <p class="scrool">
+                            Você pode apagar várias colunas ou linhas de uma vez, ao invés de apagá-las uma por uma.
+                        </p>
+
+                        <ul>
+                            <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Selecione as colunas que deseja apagar, pressionando o botão esquerdo do mouse na primeira, e arraste o número necessário de identificadores;</li>
+
+                            <li><i class="fa-solid fa-arrow-right" style="color: #44833d;"></i> Proceda como se fosse apagar uma única coluna ou linha acima.</li>
+                        </ul>
+
+                        <!-- imagem - start -->
+                        <div class="scrool">
+                            <div class="text-center img-01">
+                                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 8:</strong>
+                                Excluindo 3(três) linhas abaixo da linha 1
+                                </p>
+                                <div class="zoom">
+                                    <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem8">
+                                        <img src="imgs/topico02/figura08.png" alt="Imagem que remete a organização"
+                                            id="img-1">
+                                    </a>
+                                </div>
+                                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                            </div>
+
+                            <!-- Imagem - MODAL-->
+                            <div class="modal fade text-center" id="Imagem8" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div
+                                    class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                    <div class="modal-content w-50">
+                                        <img class="img-fluid" src="imgs/topico02/figura08.png"
+                                            alt="Alt da imagem fica aqui">
+                                    </div>
+                                    <div class="modal-footer w-50 bg-light justify-content-center">
+                                        <p class="text-secondary"><strong>Fonte:</strong>EGPCE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem - End-->
 
 
                     </div>
