@@ -86,20 +86,25 @@
 
 .cx-conteudo{
     background-color: #56b6f7;
-    padding: 1em 2em;
     color: white;
+    border: none;
 }
 
-.cabecalho{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.658);
+[data-theme="dark"] .cx-conteudo{
+    background-color: #2db39e;
     
-    margin-bottom: 5px;
 }
 
-.uls-cx-conteudo li{
-    padding-top: 0.5em;
+.icone-cx{
+    color: #477391;
 }
 
-.uls-cx-conteudo li:first-child{
-    padding-top: 0;
+[data-theme="dark"] .icone-cx{
+    color: #015a31;
+}
+
+/* segunda caixa */
+
+.cx-header{
+    padding-top: 1em;
 }
