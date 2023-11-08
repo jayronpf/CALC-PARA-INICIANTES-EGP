@@ -84,6 +84,7 @@
 
                         <!-- 1º TABELA -->
 
+                        <div class="container">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -130,6 +131,95 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+
+                        <!-- Fim da 1º tabela -->
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Operadores de Comparação</h4>
+
+                        <!-- 2º TABELA -->
+
+                        <div class="container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="bg-success text-light">Operador</th>
+                                    <th scope="col" class="bg-success text-light">Nome</th>
+                                    <th scope="col" class="bg-success text-light">Exemplo</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tBody">
+                                <tr>
+                                    <td data-th="Operador">= (sinal de igual)</td>
+                                    <td data-th="Nome">	Igualdade</td>
+                                    <td data-th="Exemplo">	A1 = B1</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador">> (maior que)</td>
+                                    <td data-th="Nome">Maior que</td>
+                                    <td data-th="Exemplo">A1 > B1</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador">< (menor que)</td>
+                                    <td data-th="Nome">Menor que</td>
+                                    <td data-th="Exemplo">	A1 < B1</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador">>= (maior ou igual a)</td>
+                                    <td data-th="Nome">Maior ou igual a</td>
+                                    <td data-th="Exemplo">A1 >= B1</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador"><= (menor ou igual a)</td>
+                                    <td data-th="Nome">Menor ou igual a</td>
+                                    <td data-th="Exemplo">A1 <= B1</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador"><> (diferente)</td>
+                                    <td data-th="Nome">Desigualdade</td>
+                                    <td data-th="Exemplo">A1 <> B1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                        <!-- Fim da 2º tabela -->
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Comandos / Instruções</h4>
+
+                        <!-- 2º TABELA -->
+
+                        <div class="container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="bg-success text-light">Operador</th>
+                                    <th scope="col" class="bg-success text-light">Nome</th>
+                                    <th scope="col" class="bg-success text-light">Exemplo</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tBody">
+                                <tr>
+                                    <td data-th="Operador">: (dois-pontos)</td>
+                                    <td data-th="Nome">Intervalo</td>
+                                    <td data-th="Exemplo">A1 : C108</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador">! (ponto de exclamação)</td>
+                                    <td data-th="Nome">Interseção</td>
+                                    <td data-th="Exemplo">SOMA (A1 : B6 ! B5 : C12) Calcula a soma de todas as células na interseção. Neste exemplo, o resultado traz a soma das células B5 e B6.</td>
+                                </tr>
+                                <tr>
+                                    <td data-th="Operador">~ (Til)</td>
+                                    <td data-th="Nome">Concatenação ou união</td>
+                                    <td data-th="Exemplo">Toma duas referências e retorna uma lista de referência, que é a concatenação da referência à esquerda seguida da referência à direita. Entradas duplas são referenciadas duplamente.</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                        <!-- Fim da 2º tabela -->
 
                     </div>
 

@@ -25,9 +25,9 @@
     padding-bottom: 15px;
 }
 
-.subtopico{
+.subtopico {
     border-bottom: 1px solid #ccc;
-    padding-bottom: 10px    ;
+    padding-bottom: 10px;
 }
 
 /* modal */
@@ -44,14 +44,14 @@
 }
 
 /* uls */
-[data-theme="dark"] .ul{
+[data-theme="dark"] .ul {
     color: #fff;
 }
 
 /* TOPICO 02 */
 
 /* alerta */
-.alert{
+.alert {
     background-color: #ffe033;
     padding: 4px;
 }
@@ -62,7 +62,7 @@
     border-top: none;
     display: flex;
     justify-content: center;
-    padding-left: 30px; 
+    padding-left: 30px;
     margin-left: 5px;
     border: none;
 }
@@ -73,38 +73,50 @@
     --bs-accordion-btn-icon-bg: var(--white);
 }
 
-.sem-borda{
+.sem-borda {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
 
-.uls-accordion li{
+.uls-accordion li {
     padding: 0.5em;
 }
 
 /* CAIXAS COM CONTEÚDO */
 
-.cx-conteudo{
+.cx-conteudo {
     background-color: #56b6f7;
     color: white;
     border: none;
 }
 
-[data-theme="dark"] .cx-conteudo{
+[data-theme="dark"] .cx-conteudo {
     background-color: #2db39e;
-    
+
 }
 
-.icone-cx{
+.icone-cx {
     color: #477391;
 }
 
-[data-theme="dark"] .icone-cx{
+[data-theme="dark"] .icone-cx {
     color: #015a31;
 }
 
 /* segunda caixa */
 
-.cx-header{
+.cx-header {
     padding-top: 1em;
+}
+
+/* TOPICO 03 */
+
+th {
+    font-weight: lighter;
+}
+
+tr,
+td,
+th {
+    border: 1px solid #115f3b;
 }

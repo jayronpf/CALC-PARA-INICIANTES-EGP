@@ -66,19 +66,31 @@
 
             <a href="#item8">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 02.5 Trabalho com folhas de cálculo</a>
-        </div>        
+        </div>    
 
-        <li class="menu">
+        <!-- 3º topico com Subtópico -->
+        <button class="dropdown-btn">
+            <li class="menu">
+                <a data-valor="topico02.php">
+                    <span class="icon space"><i class="bi bi-3-circle"></i></span>
+                    <span class="txt">Sintaxe, Formatações e Comandos
+                        <i class="bi bi-caret-down-fill barra-sub"></i></span>
+                </a>
+            </li>
+        </button>
+        <!-- subtopicos aqui  -->
+        <div class="dropdown-container" id="spy">
             <a href="topico03.php">
-                <span class="icon"><i class="bi bi-3-circle"></i></span>
-                <span class="txt">Disciplinas de UX</span>
-            </a>
-        </li>
+                <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
 
+            <a href="#item9">
+                <i class="fa-regular fa-pen-to-square circulo"></i>  03.2 Formatação de dados</a>
+        </div>        
+        
         <li class="menu">
             <a href="referencias.php">
                 <span class="icon"><i class="bi bi-book-half"></i></span>
-                <span class="txt">Referências</span>
+                <span class="txt">Referências</span>    
             </a>
         </li>
 
