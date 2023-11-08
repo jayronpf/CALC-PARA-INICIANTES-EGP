@@ -41,26 +41,39 @@
                         </div>
                         <!-- Imagem - End-->
 
-                        <p class="scrool mt-4"><strong>Bem-vindo ao Curso “Calc para Iniciantes”!</strong></p>
+                        <!-- Primeiro bloco -->
+                        <div class="scrool">
+                            <p class="mt-4"><strong>Bem-vindo ao Curso “Calc para Iniciantes”!</strong></p>
 
-                        <p class="scrool">
-                            Conhecido como um potente editor de Planilhas Eletrônicas, o LibreOffice Calc é um software livre e gratuito, que surgiu como uma alternativa ao Microsoft Excel, software proprietário e pago.
-                        </p>
+                            <p>
+                                Conhecido como um potente editor de Planilhas Eletrônicas, o LibreOffice Calc é um
+                                software livre e gratuito, que surgiu como uma alternativa ao Microsoft Excel, software
+                                proprietário e pago.
+                            </p>
 
-                        <p class="scrool">
-                            Nosso curso busca apresentar uma linguagem simples que lhe ajudará a conhecer um pouco mais sobre os conceitos básicos da utilização desse programa, através da utilização de exemplos claros e objetivos.
-                        </p>
+                            <p>
+                                Nosso curso busca apresentar uma linguagem simples que lhe ajudará a conhecer um pouco
+                                mais sobre os conceitos básicos da utilização desse programa, através da utilização de
+                                exemplos claros e objetivos.
+                            </p>
 
-                        <p class="scrool">
-                            Esperamos que você se dedique ao curso e tenha um bom aproveitamento!
-                        </p>
+                            <p>
+                                Esperamos que você se dedique ao curso e tenha um bom aproveitamento!
+                            </p>
+                        </div>
+                        <!-- Fim do primeiro bloco -->
 
-                        <h2 class="Titulo fw-bolder mt-5">Objetivo</h2>
+                        <!-- Segundo bloco -->
+                        <div class="scrool">
+                            <h2 class="Titulo fw-bolder mt-5">Objetivo</h2>
 
-                        <p class="scrool">
-                        <i class="fa fa-dot-circle text-success fs-6"></i>    
-                        Proporcionar ao aluno uma visão básica de alguns recursos do LibreOffice Calc através de exemplos práticos que possam ser utilizados em seu cotidiano pessoal e profissional.
-                        </p>
+                            <p>
+                                <i class="fa fa-dot-circle text-success fs-6"></i>
+                                Proporcionar ao aluno uma visão básica de alguns recursos do LibreOffice Calc através de
+                                exemplos práticos que possam ser utilizados em seu cotidiano pessoal e profissional.
+                            </p>
+                        </div>
+                        <!-- Fim do segundo bloco -->
 
                     </div>
 

@@ -101,19 +101,6 @@
                         </li>
 
                         <li class="menu">
-                            <a href="topico04.php">
-                                <span class="icon"><i class="bi bi-4-circle"></i></span>
-                                <span class="txt">Quem é usuário?</span>
-                            </a>
-                        </li>
-
-                        <li class="menu">
-                            <a href="topico05.php">
-                                <span class="icon"><i class="bi bi-5-circle"></i></span>
-                                <span class="txt">Benefícios de UX</span>
-                            </a>
-                        </li>
-                        <li class="menu">
                             <a href="referencias.php">
                                 <span class="icon"><i class="bi bi-book-half"></i></span>
                                 <span class="txt">Referências</span>
