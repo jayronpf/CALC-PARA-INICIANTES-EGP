@@ -82,6 +82,15 @@
     padding: 0.5em;
 }
 
+[data-theme="dark"] .p-accordion{
+    color: var(--white);
+}
+
+.img-pincel{
+    width: 1.5em;
+    height: 1.5em;
+}
+
 /* CAIXAS COM CONTEÚDO */
 
 .cx-conteudo {
