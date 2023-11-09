@@ -573,6 +573,23 @@ hr {
     background-color: #edb00929;
 }
 
+/* CAIXA PRATIQUE */
+
+.accordion #content .caixaprincipal#titulopratique{
+    background-color: #f8d406;
+    color: #fffffee0;
+}
+
+[data-theme="dark"] #pratique {
+    background-color: var(--RoxoClaroImportante);
+    color: black;
+}
+
+[data-theme="dark"] #pratique p {
+    color: #040504;
+}
+
+
 /* CAIXA FIQUE ATENTO */
 .accordion #content .caixaprincipal#titulofiqueatento {
     background-color: #edb009;
@@ -1254,7 +1271,6 @@ img#imagem-erro {
     transition: width 0.5s ease-out;
     z-index: 5;
 }
-
 
 
 /* FOOTER */
