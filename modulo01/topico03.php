@@ -637,11 +637,11 @@
                         </p>
 
                         <ul class="ul">
-                            <li><i class="fa-solid fa-check" style="color: #44833d;"></i> Aplique qualquer um dos tipos de dados na lista Categoria aos dados;</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #44833d;"></i> Aplique qualquer um dos tipos de dados na lista Categoria aos dados;</li>
 
-                            <li><i class="fa-solid fa-check" style="color: #44833d;"></i> Controle o número de casas decimais e de zeros à esquerda;</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #44833d;"></i> Controle o número de casas decimais e de zeros à esquerda;</li>
 
-                            <li><i class="fa-solid fa-check" style="color: #44833d;"></i> Entre com um formato numérico personalizado.</li>
+                            <li><i class="fa-solid fa-circle-check" style="color: #44833d;"></i> Entre com um formato numérico personalizado.</li>
                         </ul>
 
                         <div class="scrool">
@@ -674,6 +674,16 @@
                             </div>
                         </div>
                         <!-- Imagem - End-->
+
+                        <h4 class="corsub fw-bolder scrool mt-5">Sintaxe</h4>
+
+                        <p class="scrool">
+                            Para escolher rapidamente a fonte a ser utilizada na célula, selecione a célula, e clique na seta próxima à caixa Nome da Fonte na Barra de Ferramentas de Formatação e escolha uma fonte da lista.
+                        </p>
+
+                        <p class="scrool">
+                            Para escolher o tamanho da fonte, clique na seta, ao lado da caixa Tamanho da Fonte, na Barra de Ferramentas de Formatação. Para outras formatações, você pode utilizar os ícones de , Itálico, ou Sublinhado.
+                        </p>
 
 
                     </div>
