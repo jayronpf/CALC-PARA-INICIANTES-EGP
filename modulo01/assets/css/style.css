@@ -72,7 +72,6 @@ a {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.1s;
 }
 
 body {
@@ -233,9 +232,6 @@ ul li.menu a:hover {
 }
 
 /* (transition) no CONTEÚDO PRINCIPAL  */
-.all-conteudo {
-    transition: 0.1s;
-}
 
 .menulateral:hover~.all-conteudo {
     margin-left: 100px;
@@ -523,6 +519,33 @@ hr {
 
 /* CORES DOS DIFERENTES DOS ACCORDIONS */
 
+/* CAIXA DUVIDA */
+.accordion #content .caixaprincipal#tituloDuvida {
+    background-color: #2A8C82;
+    /*cor da caixa principal curiosidade*/
+    color: #fffffff6;
+    /*cor da palavra na caixa principal*/
+}
+
+#Duvida p {
+    color: black;
+    /*cor da caixa secundaria curiosidade */
+}
+
+#Duvida {
+    background-color: #4bd3c5c4;
+    /*cor da caixa secundaria curiosidade */
+}
+
+[data-theme="dark"] .accordion #content .caixaprincipal#tituloDuvida {
+    background-color: #33beaa;
+}
+
+[data-theme="dark"] #Duvida {
+    background-color: #ade7df;
+}
+
+/*  FIM CAIXA DÚVIDA */
 
 /* CAIXA IMPORTANTE */
 .accordion #content .caixaprincipal#tituloimportante {
@@ -549,6 +572,23 @@ hr {
 #importante {
     background-color: #edb00929;
 }
+
+/* CAIXA PRATIQUE */
+
+.accordion #content .caixaprincipal#titulopratique{
+    background-color: #f8d406;
+    color: #fffffee0;
+}
+
+[data-theme="dark"] #pratique {
+    background-color: var(--RoxoClaroImportante);
+    color: black;
+}
+
+[data-theme="dark"] #pratique p {
+    color: #040504;
+}
+
 
 /* CAIXA FIQUE ATENTO */
 .accordion #content .caixaprincipal#titulofiqueatento {
@@ -1231,7 +1271,6 @@ img#imagem-erro {
     transition: width 0.5s ease-out;
     z-index: 5;
 }
-
 
 
 /* FOOTER */

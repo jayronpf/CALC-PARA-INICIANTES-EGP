@@ -12,7 +12,7 @@
             </a>
         </li>
 
-        <!-- topico com Subtópico -->
+        <!-- 1º topico com subtópico -->
         <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico01.php">
@@ -40,38 +40,57 @@
                 <i class="fa-regular fa-pen-to-square circulo"></i> 01.5 Interface do Calc</a>
         </div>
 
-        <li class="menu">
+        <!-- 2º topico com Subtópico -->
+        <button class="dropdown-btn">
+            <li class="menu">
+                <a data-valor="topico02.php">
+                    <span class="icon space"><i class="bi bi-2-circle"></i></span>
+                    <span class="txt">Células, Colunas, Linhas e Folhas de Cálculo<i
+                            class="bi bi-caret-down-fill barra-sub"></i></span>
+                </a>
+            </li>
+        </button>
+        <!-- subtopicos aqui  -->
+        <div class="dropdown-container" id="spy">
             <a href="topico02.php">
-                <span class="icon space"><i class="bi bi-2-circle"></i></span>
-                <span class="txt">História de UX</span>
-            </a>
-        </li>
+                <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
 
-        <li class="menu">
+            <a href="#item5">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.2 Seleção de células, colunas, linhas e folhas</a>
+
+            <a href="#item6">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.3 Inserção de colunas ou linhas</a>
+
+            <a href="#item7">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.4 Exclusão de colunas ou linhas</a>
+
+            <a href="#item8">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 02.5 Trabalho com folhas de cálculo</a>
+        </div>    
+
+        <!-- 3º topico com Subtópico -->
+        <button class="dropdown-btn">
+            <li class="menu">
+                <a data-valor="topico02.php">
+                    <span class="icon space"><i class="bi bi-3-circle"></i></span>
+                    <span class="txt">Sintaxe, Formatações e Comandos
+                        <i class="bi bi-caret-down-fill barra-sub"></i></span>
+                </a>
+            </li>
+        </button>
+        <!-- subtopicos aqui  -->
+        <div class="dropdown-container" id="spy">
             <a href="topico03.php">
-                <span class="icon"><i class="bi bi-3-circle"></i></span>
-                <span class="txt">Disciplinas de UX</span>
-            </a>
-        </li>
+                <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
 
-        <li class="menu">
-            <a href="topico04.php">
-                <span class="icon"><i class="bi bi-4-circle"></i></span>
-                <span class="txt">Quem é o usuário?</span>
-            </a>
-        </li>
-
-        <li class="menu">
-            <a href="topico05.php">
-                <span class="icon"><i class="bi bi-5-circle"></i></span>
-                <span class="txt">Benefícios de UX</span>
-            </a>
-        </li>
-
+            <a href="#item9">
+                <i class="fa-regular fa-pen-to-square circulo"></i>  03.2 Formatação de dados</a>
+        </div>        
+        
         <li class="menu">
             <a href="referencias.php">
                 <span class="icon"><i class="bi bi-book-half"></i></span>
-                <span class="txt">Referências</span>
+                <span class="txt">Referências</span>    
             </a>
         </li>
 
