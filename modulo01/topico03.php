@@ -26,25 +26,24 @@
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!-- Título -->
-                        <h2 class="Titulo fw-bolde scrool">Sintaxe, Formatações e Comandos</h2>
+                        <h2 class="Titulo fw-bolder">Sintaxe, Formatações e Comandos</h2>
                         <!-- Título -->
 
                         <!-- INICIO DO CONTEÚDO -->
 
-                        <p class="scrool">
+                        <p>
                             <strong>Objetivo:</strong> Apresentar a sintaxe padrão do Calc através da utilização de
                             comandos de operações básicas e formatações de fórmulas simples.
                         </p>
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Sintaxe</h4>
+                        <h4 class="corsub fw-bolder mt-5">Sintaxe</h4>
 
-                        <p class="scrool">
+                        <p>
                             Em uma planilha, nós utilizamos as operações básicas para instruí-la sobre os nossos
                             cálculos, e nos valemos de fórmulas simples para as operações mais sofisticadas.
                         </p>
 
                         <!-- imagem - start -->
-                        <div class="scrool">
                             <div class="text-center img-01">
                                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 11:</strong>
                                     Exemplo de fórmula
@@ -72,15 +71,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- Imagem - End-->
 
-                        <p class="scrool">
+                        <p>
                             Observe a fórmula acima para efeito de exemplos de sintaxe. Note que há parênteses, sinais
                             de operadores aritméticos (+, -, / ,*), além de ponto e vírgula e dois pontos.
                         </p>
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Operadores Aritméticos</h4>
+                        <h4 class="corsub fw-bolder mt-5">Operadores Aritméticos</h4>
 
                         <!-- 1º TABELA -->
 
@@ -135,7 +133,7 @@
 
                         <!-- Fim da 1º tabela -->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Operadores de Comparação</h4>
+                        <h4 class="corsub fw-bolder mt-5">Operadores de Comparação</h4>
 
                         <!-- 2º TABELA -->
 
@@ -189,7 +187,7 @@
 
                         <!-- Fim da 2º tabela -->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Comandos / Instruções</h4>
+                        <h4 class="corsub fw-bolder mt-5">Comandos / Instruções</h4>
 
                         <!-- 2º TABELA -->
 
@@ -231,10 +229,10 @@
 
                         <!-- Subtopico -->
 
-                        <h3 class="Titulo fw-bolder mt-5 mb-3 scrool subtopico" id="item9">Seleção de Células, Colunas,
+                        <h3 class="Titulo fw-bolder mt-5 mb-3 subtopico" id="item9">Seleção de Células, Colunas,
                             Linhas e Folhas</h3>
 
-                        <p class="scrool">
+                        <p>
                             Os dados no Calc podem ser formatados de várias maneiras. Eles tanto podem ser editados como
                             parte do estilo da célula, e assim a formatação é aplicada automaticamente, quanto podem ser
                             aplicados manualmente à célula. Algumas formatações manuais podem ser aplicadas
@@ -244,7 +242,7 @@
                         </p>
 
                         <!-- alerta -->
-                        <div class="alert d-flex justify-content-center mt-5 scrool" role="alert">
+                        <div class="alert d-flex justify-content-center mt-5" role="alert">
                             <i class="bi bi-lightbulb-fill"></i>
                             <div>
                                 Clique nos títulos abaixo para mais informações
@@ -253,7 +251,7 @@
                         <!-- fim do alerta -->
 
                         <!-- acordeon com conteudo da aula -->
-                        <div class="container scrool">
+                        <div class="container">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
@@ -345,16 +343,15 @@
 
                         <!-- fim acordeon com conteudo da aula -->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Formatação de Linhas de Texto</h4>
+                        <h4 class="corsub fw-bolder mt-5">Formatação de Linhas de Texto</h4>
 
-                        <p class="scrool">
+                        <p>
                             Múltiplas linhas de texto podem ser inseridas em uma única célula, utilizando a quebra
                             automática de texto, ou quebras manuais de linha. Cada um desses métodos é útil em
                             diferentes situações.
                         </p>
 
                         <!-- imagem - start -->
-                        <div class="scrool">
                             <div class="text-center img-01">
                                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 12:</strong>
                                     Quebra de linha em células.
@@ -384,12 +381,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- Imagem - End-->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Utilizando a Quebra Automática de Texto</h4>
+                        <h4 class="corsub fw-bolder mt-5">Utilizando a Quebra Automática de Texto</h4>
 
-                        <p class="scrool">
+                        <p>
                             Para configurar a quebra automática no final da célula, clique com o botão direito nela e
                             selecione a opção <strong>Formatar Células</strong> (ou clique em <strong>Formatar →
                                 Células</strong> na barra de menu, ou pressione Ctrl+1). Na aba
@@ -453,7 +449,6 @@
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <!-- imagem - start -->
-                        <div class="scrool">
                             <div class="text-center img-01">
                                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 13:</strong>
                                     Formatar Células.
@@ -481,37 +476,35 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- Imagem - End-->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Utilizar Quebras Manuais de Linha</h4>
+                        <h4 class="corsub fw-bolder mt-5">Utilizar Quebras Manuais de Linha</h4>
 
-                        <p class="scrool">
+                        <p>
                             Para inserir uma quebra manual de linha, enquanto digita dentro de uma célula, pressione
                             <strong>Ctrl+Enter</strong>. Quando for editar o texto, primeiro clique duas vezes na
                             célula, depois clique na posição em que você quer quebrar a linha. Quando uma quebra manual
                             de linha é inserida, a largura da célula não é alterada.
                         </p>
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Encolher o Texto para Caber na Célula</h4>
+                        <h4 class="corsub fw-bolder mt-5">Encolher o Texto para Caber na Célula</h4>
 
-                        <p class="scrool">
+                        <p>
                             O tamanho da fonte pode ser ajustado automaticamente para caber na célula. Para isso, clique
                             com o botão direito na célula a ser formatada e clique em <strong>Formatar Células → na aba
                                 Alinhamento</strong>. Marque então o campo <strong>Reduzir para caber na
                                 célula</strong>.
                         </p>
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Formatação de Largura da Coluna</h4>
+                        <h4 class="corsub fw-bolder mt-5">Formatação de Largura da Coluna</h4>
 
-                        <p class="scrool">
+                        <p>
                             A largura da coluna pode ser ajustada automaticamente, para que consigamos visualizar todo o
                             conteúdo da célula. Para isso, clique com o botão direito na coluna a ser formatada e clique
                             em <strong>Largura ideal da coluna</strong>. Aceite, clicando em <strong>OK</strong>.
                         </p>
 
                         <!-- imagem - start -->
-                        <div class="scrool">
                             <div class="text-center img-01">
                                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 14:</strong>
                                     Largura da coluna </p>
@@ -538,7 +531,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- Imagem - End-->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
@@ -594,14 +586,13 @@
                         </section>
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Formatação de Números</h4>  
+                        <h4 class="corsub fw-bolder mt-5">Formatação de Números</h4>  
                         
-                        <p class="scrool">
+                        <p>
                             Vários formatos diferentes de números podem ser aplicados às células através dos ícones da Barra de ferramentas de formatação. Selecione a célula, e clique no ícone desejado.
                         </p>
 
                         <!-- imagem - start -->
-                        <div class="scrool">
                             <div class="text-center img-01">
                                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 15:</strong>
                                     Ícones de formatação numérica. Da esquerda para a direita: moeda, porcentagem, data, exponencial, padrão, adiciona casa decimal, exclui casa decimal.
@@ -629,10 +620,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- Imagem - End-->
 
-                        <p class="scrool">
+                        <p>
                             Para um melhor controle ou para selecionar outros formatos numéricos, utilize a <strong>aba Números</strong> da caixa de diálogo <strong>Formatar Células</strong>:
                         </p>
 
@@ -644,7 +634,6 @@
                             <li><i class="fa-solid fa-circle-check" style="color: #44833d;"></i> Entre com um formato numérico personalizado.</li>
                         </ul>
 
-                        <div class="scrool">
                             <div class="text-center img-01">
                                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 16:</strong>
                                     Formatação de células no formato de números.
@@ -672,16 +661,15 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- Imagem - End-->
 
-                        <h4 class="corsub fw-bolder scrool mt-5">Sintaxe</h4>
+                        <h4 class="corsub fw-bolder mt-5">Sintaxe</h4>
 
-                        <p class="scrool">
+                        <p>
                             Para escolher rapidamente a fonte a ser utilizada na célula, selecione a célula, e clique na seta próxima à caixa Nome da Fonte na Barra de Ferramentas de Formatação e escolha uma fonte da lista.
                         </p>
 
-                        <p class="scrool">
+                        <p>
                             Para escolher o tamanho da fonte, clique na seta, ao lado da caixa Tamanho da Fonte, na Barra de Ferramentas de Formatação. Para outras formatações, você pode utilizar os ícones de , Itálico, ou Sublinhado.
                         </p>
 

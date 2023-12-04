@@ -96,7 +96,7 @@
                         <!-- 3º topico com Subtópico -->
                         <button class="dropdown-btn">
                             <li class="menu">
-                                <a data-valor="topico02.php">
+                                <a data-valor="topico03.php">
                                     <span class="icon space"><i class="bi bi-3-circle"></i></span>
                                     <span class="txt">Sintaxe, Formatações e Comandos
                                         <i class="bi bi-caret-down-fill barra-sub"></i></span>

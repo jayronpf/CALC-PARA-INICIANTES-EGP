@@ -1,64 +1,3 @@
-// código do menu lateral feito pelo audi
-// todo esse código é do menu lateral
-// const menuLinks = document.querySelectorAll('#a01');
-// animação do botão de apresentação
-// menuLinks.forEach(link => {
-//   link.addEventListener('mouseover', () => {
-//     const originalText = link.textContent;
-//     link.textContent = originalText + 'Apresentacao' ;
-//   });
-
-//   link.addEventListener('mouseout', () => {
-//     const originalText = link.getAttribute('data-original-text1');
-//     link.textContent = originalText;
-//   });
-// });
-
-// animação do botão do primeiro módulo
-// const menuLinks2 = document.querySelectorAll('#a02');
-
-// menuLinks2.forEach(link => {
-//   link.addEventListener('mouseover', () => {
-//     const originalText = link.textContent;
-//     link.textContent = originalText + 'Modulo: Aprendendo' ;
-//   });
-
-//   link.addEventListener('mouseout', () => {
-//     const originalText = link.getAttribute('data-original-text2');
-//     link.textContent = originalText;
-//   });
-// });
-// animação do botão dos segundo módulo
-// const menuLinks3 = document.querySelectorAll('#a03');
-
-// menuLinks3.forEach(link => {
-//   link.addEventListener('mouseover', () => {
-//     const originalText = link.textContent;
-//     link.textContent = originalText + 'Módulo: Testes' ;
-//   });
-
-//   link.addEventListener('mouseout', () => {
-//     const originalText = link.getAttribute('data-original-text3');
-//     link.textContent = originalText;
-//   });
-// });
-// animação do botão do terceiro módulo 
-// const menuLinks4 = document.querySelectorAll('#a04');
-
-//     menuLinks4.forEach(link => {
-//       link.addEventListener('mouseover', () => {
-//         const originalText = link.textContent;
-//         link.textContent = originalText + 'Referencias' ;
-//       });
-
-//       link.addEventListener('mouseout', () => {
-//         const originalText = link.getAttribute('data-original-text4');
-//         link.textContent = originalText;
-//       });
-//     });
-
-// fim do código do menu lateral
-
 //BOTÃO BACK TO TOP (JAMILLE)
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("back_to_top")
@@ -134,59 +73,6 @@ function defineCurrentTheme(theme) {
 defineCurrentTheme(themeSystem)
 //FIM DA FUNÇÃO MODO ESCURO (JAMILLE)
 
-// script do ScrollReveal
-document.addEventListener('DOMContentLoaded', function () {
-    // Inicialização do ScrollReveal
-    const sr = ScrollReveal({ reset: true });
-
-    // ScrollReveal para a página de apresentação
-    sr.reveal('.main-content', { duration: 1000 });
-//    sr.reveal('#para01', { duration: 1000 });
-//     sr.reveal('#para02', { duration: 1000 });
-
-    // ScrollReveal para a página do módulo 01
-    sr.reveal('#img-1', { duration: 1000 });
-    
-    // Correção do seletor para o título (exemplo com h1)
-    sr.reveal('h1', { duration: 1000 });
-    
-    sr.reveal('.bd-callout', { duration: 1000 });
-    sr.reveal('.none', { duration: 1000 });
-    // Adicione outros seletores e efeitos conforme necessário
-    sr.reveal('.scrool', { duration: 1000 });
-    sr.reveal('.accordion', { duration: 1000 });
-
-    sr.reveal('iframe', { duration: 1000 });
-    
-    // Certifique-se de incluir este código no local apropriado em sua página HTML
-});
-
-
-//Amanda// 
-
-// barra de progresso embaixo - JS 
-
-// const progressbar = document.querySelector('#progress-bar')
-
-// const section = document.querySelector('section')
-
-/*fazer minha animação e scroll - barra de progresso*/
-// const animateProgressBar = () => {
-//     let scrollMouse = -section.getBoundingClientRect().top;
-//     let progressWidth = (scrollMouse / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
-
-//     let value = Math.floor(progressWidth)
-//     console.log(value)
-
-//     progressbar.style.width = value + "%"
-
-//     if (value < 0) {
-//         progressbar.style.width = '0%'
-//     }
-// }
-// window.addEventListener('scroll', animateProgressBar)
-// animateProgressBar()
-
 // CORES DO MENU QUE MUDAM CONFORME O USUARIO MUDA DE PAG
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -200,24 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
-
-// teste do menu lateral
-
-// var dropdown = document.getElementsByClassName("dropdown-btn");
-// var i;
-
-// for (i = 0; i < dropdown.length; i++) {
-//   dropdown[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     var dropdownContent = this.nextElementSibling;
-//     if (dropdownContent.style.display === "block") {
-//       dropdownContent.style.display = "none";
-//     } else {
-//       dropdownContent.style.display = "block";
-//     }
-//   });
-// }
 
 // SUBTÓPICO COM JQUERY
 

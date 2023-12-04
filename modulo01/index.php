@@ -26,13 +26,13 @@
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!-- Título -->
-                        <h2 class="Titulo fw-bolde scrool">Apresentação</h2>
+                        <h2 class="Titulo fw-bolde">Apresentação</h2>
                         <!-- Título -->
 
                         <!-- INICIO DO CONTEUDO -->
 
                         <!-- imagem -->
-                        <div class="text-center img-01 scrool">
+                        <div class="text-center img-01">
                             <div class="zoom2">
                                 <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem1">
                                     <img src="imgs/index/banner.png" alt="Imagem que remete a organização" id="img-1">
@@ -42,7 +42,7 @@
                         <!-- Imagem - End-->
 
                         <!-- Primeiro bloco -->
-                        <div class="scrool">
+                        <div>
                             <p class="mt-4"><strong>Bem-vindo ao Curso “Calc para Iniciantes”!</strong></p>
 
                             <p>
@@ -64,7 +64,7 @@
                         <!-- Fim do primeiro bloco -->
 
                         <!-- Segundo bloco -->
-                        <div class="scrool">
+                        <div>
                             <h2 class="Titulo fw-bolder mt-5">Objetivo</h2>
 
                             <p>

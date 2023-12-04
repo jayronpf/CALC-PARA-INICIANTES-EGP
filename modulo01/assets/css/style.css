@@ -1,6 +1,5 @@
 /* font relawey (para os conteúdos de textos dos parágrafos)  */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 /* OBS:
 A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 
@@ -56,9 +55,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     --CorAccordionImportante: #f18519;
     --CorAccordionImportanteMaisClaro: #ff7f0033;
     /* fontes */
-    --FonteArial: Arial, Helvetica, sans-serif;
-    --FonteRaleway: 'Raleway', sans-serif;
-    --FonteVerdana: Verdana, Geneva, Tahoma, sans-serif;
+    --FonteKanit: 'Kanit', sans-serif;
     /*  */
 }
 
@@ -71,7 +68,7 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--FonteKanit);
 }
 
 body {
@@ -147,7 +144,7 @@ ol {
 }
 
 ol li {
-    font-family: var(--FonteRaleway);
+    font-family: var(--FonteKanit);
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -162,7 +159,7 @@ ol li {
 }
 
 .list li {
-    font-family: var(--FonteRaleway);
+    font-family: var(--FonteKanit);
     font-size: 1.2rem;
     margin-top: 5px;
 }
@@ -441,7 +438,7 @@ hr {
 
 .main-content p {
     font-size: 20px;
-    font-family: var(--FonteRaleway);
+    font-family: var(--FonteKanit);
     margin-left: 5px;
 }
 
@@ -476,7 +473,7 @@ hr {
     position: relative;
     display: flex;
     justify-content: center;
-    font-family: 'Raleway' !important;
+    font-family: var(--FonteKanit) !important;
     margin-bottom: 2rem;
     cursor: pointer;
 }

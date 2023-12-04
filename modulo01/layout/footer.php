@@ -1,6 +1,6 @@
 <footer>
     <hr>
-    <div class="text-center scrool  ">
+    <div class="text-center">
         <p class="text">
             <?php echo date('Y'); ?> EGPCE | Escola de Gestão Pública do Estado do Ceará
         </p>
