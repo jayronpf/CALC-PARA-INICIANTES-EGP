@@ -35,14 +35,14 @@
                         <div class="text-center img-01">
                             <div class="zoom2">
                                 <a href="..." data-bs-toggle="modal" data-bs-target="#Imagem1">
-                                    <img src="imgs/index/banner.png" alt="Imagem que remete a organização" id="img-1">
+                                    <img src="imgs/index/banner.png" alt="Imagem que remete a organização" id="img-1" class="wow animate__zoomIn">
                                 </a>
                             </div>
                         </div>
                         <!-- Imagem - End-->
 
                         <!-- Primeiro bloco -->
-                        <div>
+                        <div class="wow fadeIn" data-wow-daley="0.5s">
                             <p class="mt-4"><strong>Bem-vindo ao Curso “Calc para Iniciantes”!</strong></p>
 
                             <p>
@@ -64,10 +64,10 @@
                         <!-- Fim do primeiro bloco -->
 
                         <!-- Segundo bloco -->
-                        <div>
+                        <div class="wow fadeIn" data-wow-daley="0.5s">
                             <h2 class="Titulo fw-bolder mt-5">Objetivo</h2>
 
-                            <p>
+                            <p class="wow fadeInLeft">
                                 <i class="fa fa-dot-circle text-success fs-6"></i>
                                 Proporcionar ao aluno uma visão básica de alguns recursos do LibreOffice Calc através de
                                 exemplos práticos que possam ser utilizados em seu cotidiano pessoal e profissional.
@@ -84,7 +84,7 @@
         </section>
 
         <!-- Botões de navegação -->
-        <div class="text-center">
+        <div class="text-center wow fadeIn" data-wow-daley="0.5s">
             <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                     class="fa-solid fa-chevron-right"></i></a>
         </div>

@@ -190,13 +190,18 @@ ul li.menu a {
     right: 5%;
 }
 
-ul li.menu a .txt {
+ul .menu a .txt {
     margin-left: 2.5rem;
     display: flex;
     text-align: left;
     width: 100%;
     /* border: 1px solid red; */
 }
+
+/* ul .menu a {
+    padding-top: 20px;
+    height: 12vh;
+} */
 
 @media screen {
     @media(max-width: 400px) {
