@@ -82,11 +82,11 @@
     padding: 0.5em;
 }
 
-[data-theme="dark"] .p-accordion{
+[data-theme="dark"] .p-accordion {
     color: var(--white);
 }
 
-.img-pincel{
+.img-pincel {
     width: 1.5em;
     height: 1.5em;
 }
@@ -130,6 +130,62 @@ th {
     border: 1px solid #115f3b;
 }
 
-.tr-th{
+.tr-th {
     background-color: #015a31;
+}
+
+/* collapse */
+
+.btn-collapse{
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.text-collapse {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 1.2em;
+}
+
+[data-theme="dark"] .text-collapse {
+    color: #fff;
+}
+
+.btn-collapse {
+    background-image: linear-gradient(to bottom, #e06a0c, #e06a0c);
+}
+
+[data-theme="dark"] .btn-collapse {
+    background-image: linear-gradient(to bottom, #2db39e, #2db39e);
+}
+
+.body-collpse {
+    background-color: #e4a500;
+    padding: 0.5em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+[data-theme="dark"] .body-collpse {
+    background-color: #45b16e;
+}
+
+/* accordions */
+.accordion-button {
+    background-image: linear-gradient(to right, #e4a500, #e4a500);
+}
+
+.accordion-body {
+    background-image: linear-gradient(to right, #e4a500, #e4a500);
+    color: #fff;
+}
+
+[data-theme="dark"] .accordion-button {
+    background-image: linear-gradient(to right, #45b16e, #45b16e);
+}
+
+[data-theme="dark"] .accordion-body {
+    background-image: linear-gradient(to right, #45b16e, #45b16e);
+    color: #fff;
 }
